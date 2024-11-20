@@ -1,0 +1,32 @@
+1)create ec2 instance
+name,ubuntu,t2samll,pem,allow ports
+2)under==>ec2-security==>securitygroups==>editinbondruls==>custom tcp,anywhere
+3)connect ec2 own terminal
+4)sudo apt update
+5)sudo apt install python3-pip
+6)sudo apt install python3.12-venv
+7)python3 -m venv airflow_venv
+8)source airflow_venv/bin/activate
+9)pip install pandas
+10)pip install s3fs
+11)pip install apache-airflow
+#for cal
+12)airflow standalone
+#generate random username and passward
+#admin rq3wqgwCEyExv4VE
+13)ec2==>connect==>Public IPv4 DNS:8080
+14)login airflow ui using above credietaials
+15)open visusal==>.ssh==>add==>connect host==>linux==>continue
+16)paset code 
+17in airflow ui==> header admin navigate to connection ==>
+18)add connection==>conn id same in connid ==>http==>weather api start https==org paste
+19)change api key city name using your account
+20create s3 bucket
+21)account==>security crediential==>create access key
+accessskey==  securityaccesskey=
+22)pip install awscli
+23)aws configure
+14)aws sts get-session-token
+save and wait
+15)see s3 bucket
+
