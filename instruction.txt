@@ -1,6 +1,6 @@
 1)create ec2 instance
 name,ubuntu,t2samll,pem,allow ports
-2)under==>ec2-security==>securitygroups==>editinbondruls==>custom tcp,anywhere
+2)under==>ec2-security==>securitygroups==>editinbondruls==>custom tcp,8080,anywhere
 3)connect ec2 own terminal
 4)sudo apt update
 5)sudo apt install python3-pip
