@@ -38,12 +38,16 @@ The Airflow DAG orchestrates the following tasks:
   
 **Transform and Load Data:**
   Cleans and processes the data before storing it in the S3 bucket.
+  
   ![dag sucessfuly work](https://github.com/user-attachments/assets/a4c77168-bf99-407c-be7b-51f1223ca4a4)
 
   
 # **Phase 3: Automating and Triggering the Pipeline**
 The pipeline runs on a predefined schedule in Airflow, ensuring regular updates of weather data.
 The S3 bucket acts as a central repository, accessible for analysis or downstream applications.
+
+![ETL_WEATHER_API_AUTOMATED_PIPLINE drawio](https://github.com/user-attachments/assets/40c10643-a7e7-462f-8f3c-4fba9bae29dd)
+
 
 
 
