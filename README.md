@@ -12,7 +12,8 @@ AWS S3 is used to store transformed data, ensuring secure, reliable, and scalabl
 **3. Automated Orchestration**
 Apache Airflow manages the pipeline, orchestrating each ETL step from API extraction to S3 storage.
 
-#**Project Workflow**
+# **Project Workflow**
+
 # **Phase 1: Setup**
 AWS EC2 Instance: Launch an EC2 instance to host Apache Airflow, which serves as the orchestration engine.
 
@@ -31,8 +32,10 @@ The Airflow DAG orchestrates the following tasks:
 
 **Weather API Ready:** 
   Establishes a connection to the OpenWeather API using the API key and validates access.
+  
 **Extract Weather Data: **
   Collects real-time weather data for Karachi.
+  
 **Transform and Load Data:**
   Cleans and processes the data before storing it in the S3 bucket.
   ![dag sucessfuly work](https://github.com/user-attachments/assets/a4c77168-bf99-407c-be7b-51f1223ca4a4)
