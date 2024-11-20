@@ -43,6 +43,7 @@ The Airflow DAG orchestrates the following tasks:
 
   
 # **Phase 3: Automating and Triggering the Pipeline**
+
 The pipeline runs on a predefined schedule in Airflow, ensuring regular updates of weather data.
 The S3 bucket acts as a central repository, accessible for analysis or downstream applications.
 
