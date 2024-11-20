@@ -1,4 +1,4 @@
-#** WeatherFlow ETL Pipeline: Automating Weather Data Collection and Transformation**
+# ** WeatherFlow ETL Pipeline: Automating Weather Data Collection and Transformation**
 **Project Introduction**
 Weather is a critical factor influencing industries such as agriculture, logistics, and energy. The WeatherFlow ETL Pipeline automates the process of gathering, processing, and storing weather data for Karachi. By leveraging the OpenWeather API, AWS services, and Apache Airflow, this project offers a scalable and efficient solution for weather data management.
 
