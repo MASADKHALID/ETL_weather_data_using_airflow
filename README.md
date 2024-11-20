@@ -33,7 +33,7 @@ The Airflow DAG orchestrates the following tasks:
 **Weather API Ready:** 
   Establishes a connection to the OpenWeather API using the API key and validates access.
   
-**Extract Weather Data: **
+**Extract Weather Data:**
   Collects real-time weather data for Karachi.
   
 **Transform and Load Data:**
